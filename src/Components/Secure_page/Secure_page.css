@@ -1,0 +1,52 @@
+.main_secure_page {
+    padding: 50px 10px;
+}
+
+.se_head {
+    color: white;
+    font-size: 2.5rem ;
+    font-weight: 400;
+}
+
+.se_para {
+    color: #c1c7cb;
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+}
+
+.se_para::after{
+    position: absolute;
+    content: "";
+    background-color: #0074FF;
+    height: 100%;
+    width: 3px;
+    left: -4%;
+    top: 0px;
+}
+
+.black_box h1 {
+    color: #0074FF;
+    font-weight: 700;
+
+
+
+    
+}
+
+.black_box p {
+    color: #c1c7cb;
+
+}
+.black_box {
+    background: linear-gradient(to bottom, #181818, #000) !important;
+    padding: 20px;
+    border-radius:20px ;
+    text-align: center;
+    /* background: red !important  ; */
+}
+
+.resvers {
+    background: linear-gradient(to top, #181818, #000) !important;
+
+}

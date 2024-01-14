@@ -1,0 +1,145 @@
+.upper_tkn {
+    color: #c1c7cb;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-emphasis: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.token_nomics_main {
+    padding: 40px 10px ;
+}
+
+.lower_tkn {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-emphasis: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bout_tokn {
+    background-color: #2E2E2E;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.box_token_info {
+    background-color: #2E2E2E;
+    padding: 30px; 
+    border-radius: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+}
+.text_info {
+    /* width: 50%; */
+}
+.clr_box {
+    background-color: #0074FF;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.tokn_add {
+    color: white;
+}
+
+.text_info h5 {
+font-size: 1.4rem;
+font-weight: 400;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+    color: #c1c7cb;
+
+}
+.text_info p {
+    margin-bottom: 0px;
+    color: #c1c7cb;
+
+
+}
+
+.pro_head {
+    color: #c1c7cb;
+font-size: 1.5rem;
+align-items: center;
+display: flex;
+font-weight: 500;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.proggress_box{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.progress_bar {
+    position: relative;
+    background-color: #3F4143;
+    border-radius: 20px;
+    height: 20px;
+    width: 100%;
+}
+
+.inner_pro {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #0074FF;
+    border-radius: 20px;
+    width: 60%;
+}
+
+
+.white_paper_box {
+    background-color: #0A2D6B;
+    padding: 20px ;
+    border-radius: 20px;
+    color: #c1c7cb;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.names_re  {
+   text-transform: uppercase;
+   color: white !important  ;
+}
+
+
+
+
+.cir{
+    background-color: #0074FF;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:600px){
+    .lower_tkn{
+        font-size: 24px;
+    }
+    .clr_box{
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+}
